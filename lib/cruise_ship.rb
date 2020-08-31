@@ -14,7 +14,7 @@ def select_winner(passengers)
   end
 end
 
-puts select_winner({
+select_winner({
 suite_a: "Amanda Presley", 
 suite_b: "Seymour Hoffman", 
 suite_c: "Alfred Tennyson", 
