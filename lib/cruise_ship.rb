@@ -9,7 +9,7 @@
 def select_winner(passengers)
   passengers.each do |key, value|
     if (key == :suite_a) && (value[0] = "A")
-      put "#{value} is the lucky winner!"
+      puts "#{value} is the lucky winner!"
     end
 end
 
