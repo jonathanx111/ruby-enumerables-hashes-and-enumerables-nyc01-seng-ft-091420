@@ -3,7 +3,7 @@ def DNA_strand(dna)
   
   new = []
   dna1 = dna.split
-  dna.split.each do |x|
+  dna1.each do |x|
     binding.pry
     if x == "A"
       new << "T"
