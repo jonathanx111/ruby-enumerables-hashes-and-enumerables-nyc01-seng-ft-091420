@@ -2,6 +2,7 @@ require 'pry'
 def DNA_strand(dna)
   
   new = []
+  dna1 = dna.split
   dna.split.each do |x|
     binding.pry
     if x == "A"
